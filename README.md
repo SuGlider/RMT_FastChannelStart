@@ -6,3 +6,10 @@ It just creates two new functions, extending RMT driver in order to allow writin
 There is a separated function to start all ESP32 eight channels as fast as possible.
 
 As a result all 8 channels start within 2 us, nearly simultaneous.
+
+
+### Logic Analyzer Screenshots
+
+![8 channels starting - milliseconds vision](https://github.com/SuGlider/RMT_FastChannelStart/blob/main/issue_2885_RMT_start_8_channels_at_the_same_time/LogicAnalyser-ScreenShots/Channels_Starting_milliseconds.png)
+
+![8 channels starting - microseconds vision](https://github.com/SuGlider/RMT_FastChannelStart/blob/main/issue_2885_RMT_start_8_channels_at_the_same_time/LogicAnalyser-ScreenShots/Channels_Starting_microseconds.png)
